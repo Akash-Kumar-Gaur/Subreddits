@@ -1,0 +1,37 @@
+.reddits-categories {
+    padding: 20px 15px;
+    height: 100%;
+    .heading {
+        color: #7a869e;
+        margin-bottom: 5px;
+    }
+
+    .subreddit{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        .subreddit-info {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px;
+    
+            .reddit-logo,
+            .reddit-name {
+                font-size: 16px;
+                color: #fff;
+                margin-right: 10px;
+            }
+        }
+        .active-status{
+            color: #7a869e;
+            padding-right: 8px;
+        }
+        &:hover {
+            background: #282c34;
+            border-radius: 3px;
+        }
+    }
+    
+}
